@@ -2,15 +2,17 @@
 
 ## Project Overview
 
-This project analyzes airline operations using Power BI, with a focus on flight activity, delays, cancellations, airports, airlines, and route performance.
+This project analyzes airline operations data using Power BI, with a focus on flight activity, delays, cancellations, airline performance, and route performance.
 
-I built the report to provide an overall view of flight operations while also allowing delays and cancellations to be analyzed separately.
+I built the dashboard to provide a clear view of overall flight operations and to make it easier to identify delay patterns, cancellation trends, and differences in performance across airlines, airports, routes, and time periods.
 
-The report is divided into three pages: Main Dashboard, Delay Dashboard, and Cancellation Dashboard.
+The report is divided into three main pages: Main Dashboard, Delay Dashboard, and Cancellation Dashboard.
+
+---
 
 ## Main Dashboard
 
-The Main Dashboard provides an overall view of flight operations.
+The Main Dashboard provides an overall view of airline operations and flight activity.
 
 Key metrics include:
 
@@ -19,14 +21,18 @@ Key metrics include:
 - Total Airlines
 - Total Delay Minutes
 - Total Delayed Flights
-
-The page also provides analysis by airline, route, state, month, and quarter.
+- Flights by Airline
+- Trips by Route
+- Flights by State
+- Monthly Flight Trends
 
 ![Main Dashboard](Main.png)
 
-## Delay Dashboard
+---
 
-The Delay Dashboard focuses on delayed flights and delay performance.
+## Delay Analysis
+
+The Delay Dashboard focuses on delayed flights and helps identify where and when delays occur.
 
 The analysis includes:
 
@@ -37,14 +43,15 @@ The analysis includes:
 - Delay Categories
 - Monthly Delay Trends
 - Month-over-Month Delay Rate
-
-Users can filter the analysis by flight date, airline, origin airport, and destination airport.
+- Filtering by Flight Date, Airline, Origin Airport, and Destination Airport
 
 ![Delay Dashboard](Delay%20Dashboard.png)
 
-## Cancellation Dashboard
+---
 
-The Cancellation Dashboard provides a detailed view of flight cancellations.
+## Cancellation Analysis
+
+The Cancellation Dashboard focuses on flight cancellations and the main reasons behind them.
 
 The analysis includes:
 
@@ -53,20 +60,25 @@ The analysis includes:
 - Cancellations by Route
 - Cancellation Reasons
 - Monthly Cancellation Trends
-- Month-over-Month Cancellation Growth
+- Month-over-Month Cancellation Rate
+- Filtering by Flight Date, Airline, Origin Airport, and Destination Airport
 
 ![Cancellation Dashboard](Cancellation%20Dashboard.png)
 
-## Interactive Analysis
+---
 
-The report includes filters for:
+## Dashboard Features
+
+The report includes interactive filters that allow users to explore the data by:
 
 - Flight Date
 - Airline
 - Origin Airport
 - Destination Airport
 
-Navigation buttons are included to move between the delay and cancellation pages.
+Navigation buttons are also included to move between the Delay and Cancellation dashboards.
+
+---
 
 ## Tools Used
 
@@ -74,19 +86,27 @@ Navigation buttons are included to move between the delay and cancellation pages
 - Power Query
 - DAX
 - Data Modeling
-- Data Cleaning and Transformation
 - Data Visualization
+
+---
 
 ## What I Worked On
 
-For this project, I prepared and transformed the flight data and created the calculations required to analyze airline operations.
+For this project, I worked on:
 
-I built measures for flight volumes, delays, cancellations, delay minutes, and period-over-period performance.
+- Data cleaning and transformation
+- Building the data model
+- Creating DAX measures
+- Developing operational KPIs
+- Analyzing flight delays and cancellations
+- Creating interactive filters and navigation
+- Designing and formatting the dashboard
+- Building the final Power BI report
 
-I also designed the dashboard pages and added interactive filters and navigation to make it easier to move from the overall operational view to detailed delay and cancellation analysis.
+---
 
-## Power BI File
+## Project File
 
-The Power BI project file is included in this repository.
+The Power BI project file is not included in this repository due to its file size.
 
-[Open Power BI Project](Airline-Operations-Analytics-PowerBI.pbix)
+Dashboard screenshots are provided above to demonstrate the analysis, design, and functionality of the report.
