@@ -6,11 +6,11 @@ This project analyzes airline operations using Power BI, with a focus on flight 
 
 I built the report to provide an overall view of flight operations while also allowing delays and cancellations to be analyzed separately.
 
-The report is divided into three main pages: Main Dashboard, Delay Dashboard, and Cancellation Dashboard.
+The report is divided into three pages: Main Dashboard, Delay Dashboard, and Cancellation Dashboard.
 
 ## Main Dashboard
 
-The main page provides an overall view of flight operations.
+The Main Dashboard provides an overall view of flight operations.
 
 Key metrics include:
 
@@ -24,9 +24,9 @@ The page also provides analysis by airline, route, state, month, and quarter.
 
 ![Main Dashboard](Main.png)
 
-## Delay Analysis
+## Delay Dashboard
 
-The Delay Dashboard focuses on delayed flights and the factors related to delay performance.
+The Delay Dashboard focuses on delayed flights and delay performance.
 
 The analysis includes:
 
@@ -40,9 +40,9 @@ The analysis includes:
 
 Users can filter the analysis by flight date, airline, origin airport, and destination airport.
 
-![Delay Dashboard](Delay_Dashboard.png)
+![Delay Dashboard](Delay%20Dashboard.png)
 
-## Cancellation Analysis
+## Cancellation Dashboard
 
 The Cancellation Dashboard provides a detailed view of flight cancellations.
 
@@ -55,9 +55,7 @@ The analysis includes:
 - Monthly Cancellation Trends
 - Month-over-Month Cancellation Growth
 
-Cancellation reasons include weather, airline or carrier issues, air system issues, and security.
-
-![Cancellation Dashboard](Cancellation_Dashboard.png)
+![Cancellation Dashboard](Cancellation%20Dashboard.png)
 
 ## Interactive Analysis
 
@@ -68,7 +66,7 @@ The report includes filters for:
 - Origin Airport
 - Destination Airport
 
-Navigation buttons are also included to move between the delay and cancellation analysis pages.
+Navigation buttons are included to move between the delay and cancellation pages.
 
 ## Tools Used
 
@@ -85,4 +83,10 @@ For this project, I prepared and transformed the flight data and created the cal
 
 I built measures for flight volumes, delays, cancellations, delay minutes, and period-over-period performance.
 
-I also designed the three dashboard pages and added interactive filters and navigation to make it easier to move from the overall operational view to more detailed delay and cancellation analysis.
+I also designed the dashboard pages and added interactive filters and navigation to make it easier to move from the overall operational view to detailed delay and cancellation analysis.
+
+## Power BI File
+
+The Power BI project file is included in this repository.
+
+[Open Power BI Project](Airline-Operations-Analytics-PowerBI.pbix)
